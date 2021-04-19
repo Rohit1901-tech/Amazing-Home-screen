@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500&display=swap');
+	</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header class="site-headers">
+	<nav>
+		<div class="logo">
+			<h3>modern website</h3>
+		</div>
+		<div class="menu">
+			<a href="#" target="_blank">sign in</a>
+			<a href="#" <!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500&display=swap');
+	</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header class="site-headers">
+	<nav>
+		<div class="logo">
+			<h3>modern website</h3>
+		</div>
+		<div class="menu">
+			<a href="#" target="_blank">sign in</a>
+			<a href="#" target="_blank">service</a>
+			<a href="#" target="_blank">aboutus</a>
+			<a href="#" target="_blank">chat with us</a>
+		</div>
+	</nav>
+	<section>
+		<div class="leftside">
+			<div>
+				<img src="C:\Users\HP\Downloads\topaste.jpg">
+			</div>	
+		</div>
+		<div class="rightside">
+			<div class="my">
+				<h1>our modern website</h1>
+				<p>We are the Best Web Developer Company.</p>
+				<button class="btn">Let's Go</button>
+			</div>
+		</div>
+	</section>
+</header>
+</body>
+</html>>service</a>
+			<a href="#" target="_blank">aboutus</a>
+			<a href="#" target="_blank">chat with us</a>
+		</div>
+	</nav>
+	<section>
+		<div class="leftside">
+			<div>
+				<img src="C:\Users\HP\Downloads\topaste.jpg">
+			</div>	
+		</div>
+		<div class="rightside">
+			<div class="my">
+				<h1>our modern website</h1>
+				<p>We are the Best Web Developer Company.</p>
+				<button class="btn">Let's Go</button>
+			</div>
+		</div>
+	</section>
+</header>
+</body>
+</html>
