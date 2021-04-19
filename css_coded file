@@ -1,0 +1,131 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.site-headers{
+	width:100%;
+	height:100vh;
+	background-color:#1F1A42
+}
+nav{
+	width:100%;
+	height:20vh;
+	display: flex;
+	justify-content: space-between;
+	background-color: rgba(0,0,0,0.4);
+	align-items: center;
+}
+nav .logo{
+	width: 25%;
+	background-color:white;
+	padding: 5px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px; 
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+	text-transform: uppercase;
+	color: black; /*#fff*/
+	text-shadow: 2px 2px 5px #031321;
+	box-shadow:0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+}
+nav .menu{
+	width: 40%;
+	padding: 20px;
+	display: flex;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color: rgba(0,0,0,0.6);
+	justify-content: space-around;	
+	text-transform: uppercase;
+	background:linear-gradient(90deg,transparent,#2196f3);
+}
+nav .menu a{
+	text-decoration: none;
+	color: white;
+}
+nav .menu a:hover{
+	font-weight: bolder;
+}
+section{
+	width: 100%;
+	height: 80vh;
+	overflow: hidden;
+}
+.leftside{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+.leftside div{
+	width: 100%;
+	height:100%;
+	padding-left:80px;
+}
+.rightside{
+	width: 40%;
+	height: 100%;
+	float: right;
+	overflow: hidden;
+}
+.rightside .my{
+	float: right;
+	position: relative;
+	top: 30%;
+	right: 0;
+	width:0px;
+	height: 35%;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	text-align: center;
+	animation-name: hello;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-direction: alternate;
+	animation-fill-mode: both;
+}
+@keyframes hello{
+	0%{
+		width:0px; 
+		font-size: 0px;
+	};
+	50%{
+		width: 200px;
+		font-size: 10px;
+	}
+	100%{
+		width: 500px;
+		outline: hidden;
+		border-top-left-radius:100px;
+		border-bottom-left-radius:100px;
+	};
+}
+.rightside .my h1{
+	position: relative;
+	margin-top: 20px;
+	font-size: 2.2rem;
+	font-weight: bolder;
+	text-shadow: 2px 2px 5px black;
+	text-transform: uppercase;
+
+}
+.rightside .my p{
+	position: relative;
+	margin: 10px 0;
+	text-transform: uppercase;
+}
+.rightside .my .btn{
+	position: relative;
+	margin: 15px 0;
+	padding: 10px;
+	text-transform: uppercase;
+	background:linear-gradient(57deg,#00c6a7,#1e4d92);
+	outline-style: none;
+	border-radius: 8px;
+}
+
